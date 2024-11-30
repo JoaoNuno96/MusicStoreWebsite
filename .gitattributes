@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+*.blade.php diff=html
+*.php linguist-language=PHP
+*.js linguist-vendored=true
+*.css linguist-vendored=true
+*.scss linguist-vendored=true
+*.html diff=html
+*.md diff=markdown
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
